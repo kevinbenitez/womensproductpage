@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Womens Running Shoes</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="Orange" src="images/womensorange.jpg" alt="">
+        <img data-image="Teal" src="images/womensteal.jpg" alt="">
+        <img data-image="ImpulsePink" class="active" src="images/womensimpulsepink.jpg" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Women’s Running Shoes</span>
+          <h1>UA Micro G Blur 2</h1>
+          <p>The perfect everyday running/ jogging shoe. Excellent in all conditions. Comfortable support and extra cushioning for the best performance.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="ImpulsePink" type="radio" id="ImpulsePink" name="color" value="ImpulsePink" checked>
+                <label for="ImpulsePink"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Teal" type="radio" id="Teal" name="color" value="Teal">
+                <label for="Teal"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Orange" type="radio" id="Orange" name="color" value="Orange">
+                <label for="Orange"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>$80.00</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
